@@ -1,0 +1,14 @@
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\bin\Debug\net8.0\E-StudentDomain.deps.json
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\bin\Debug\net8.0\E-StudentDomain.dll
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\bin\Debug\net8.0\E-StudentDomain.pdb
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.AssemblyInfoInputs.cache
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.AssemblyInfo.cs
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.csproj.CoreCompileInputs.cache
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.dll
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\refint\E-StudentDomain.dll
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.pdb
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\ref\E-StudentDomain.dll
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\bin\Debug\net8.0\E-StudentDomain.runtimeconfig.json
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.csproj.AssemblyReference.cache
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.genruntimeconfig.cache
