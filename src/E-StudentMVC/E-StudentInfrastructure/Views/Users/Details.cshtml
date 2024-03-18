@@ -1,0 +1,190 @@
+﻿@model E_StudentDomain.Model.User
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Користувач Id @Html.DisplayFor(model => model.Id)</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">
+            Дані користувача
+        </dt>
+        <dt class="col-sm-4">
+            Дані студента
+        </dt>
+        @if (Model.IsDormResident)
+        {
+            <dt class="col-sm-4">
+                Дані мешканця гуртожитку
+            </dt>
+        }
+        else
+        {
+            <dt class="col-sm-4">
+                Не є мешканцем гуртожитку
+            </dt>
+        }
+        <dt class="col-sm-12">&nbsp;
+        </dt>
+
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-2">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.Id)
+        </dt>
+        <dd class="col-sm-2">
+            <a asp-action="OpenStudent" asp-route-id="@Model?.Student.Id">@Html.DisplayFor(model => model.Student.Id)</a>
+        </dd>
+        @if (Model.IsDormResident)
+        {
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DormResident.Id)
+            </dt>
+            <dd class="col-sm-2">
+                <a asp-action="OpenResident" asp-route-id="@Model?.DormResident.Id">@Html.DisplayFor(model => model.DormResident.Id)</a>
+            </dd>
+        }
+        else
+        {
+            <dd class="col-sm-4">
+                
+            </dd>
+        }
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.Name)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Student.Name)
+        </dd>
+        @if (Model.IsDormResident)
+        {
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DormResident.Name)
+            </dt>
+            <dd class="col-sm-2">
+                @Html.DisplayFor(model => model.DormResident.Name)
+            </dd>
+        }
+        else
+        {
+            <dd class="col-sm-4">
+
+            </dd>
+        }
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.StudentNumber)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Student.StudentNumber)
+        </dd>
+        @if (Model.IsDormResident)
+        {
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DormResident.PassId)
+            </dt>
+            <dd class="col-sm-2">
+                <a asp-action="OpenDormPass" asp-route-id="@Model?.DormResident.Id">@Html.DisplayFor(model => model.DormResident.Pass.Number)</a>
+            </dd>
+        }
+        else
+        {
+            <dd class="col-sm-4">
+
+            </dd>
+        }
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IsDormResident)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.IsDormResident)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.Faculty)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Student.Faculty)
+        </dd>
+        @if (Model.IsDormResident)
+        {
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DormResident.AccountId)
+            </dt>
+            <dd class="col-sm-2">
+                <a asp-action="OpenDormAccount" asp-route-id="@Model?.DormResident.Id">@Html.DisplayFor(model => model.DormResident.Account.Number)</a>
+            </dd>
+        }
+        else
+        {
+            <dd class="col-sm-4">
+
+            </dd>
+        }
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.Course)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Student.Course)
+        </dd>
+        <dt class="col-sm-2">
+            
+        </dt>
+        <dd class="col-sm-2">
+            
+        </dd>
+
+
+        <dt class="col-sm-2">
+            
+        </dt>
+        <dd class="col-sm-2">
+            
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.Group)
+        </dt>
+        <dd class="col-sm-2">
+            <a asp-action="OpenGroup" asp-route-id="@Model?.Student.GroupId">
+                @Html.DisplayFor(model => model.Student.Group.Name)
+            </a>
+        </dd>
+        <dt class="col-sm-2">
+            
+        </dt>
+        <dd class="col-sm-2">
+            
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Редагувати</a> |
+    <a asp-action="Index">До списку студентів</a>
+</div>

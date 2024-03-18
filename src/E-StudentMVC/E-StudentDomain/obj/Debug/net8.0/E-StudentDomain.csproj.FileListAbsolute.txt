@@ -12,3 +12,4 @@ D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\ref\E-St
 D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\bin\Debug\net8.0\E-StudentDomain.runtimeconfig.json
 D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.csproj.AssemblyReference.cache
 D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.genruntimeconfig.cache
+D:\Projects\E-Student\src\E-StudentMVC\E-StudentDomain\obj\Debug\net8.0\E-StudentDomain.sourcelink.json

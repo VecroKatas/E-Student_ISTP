@@ -1,0 +1,36 @@
+﻿@model E_StudentDomain.Model.DormRoom
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<h3>Ви впевнені що хочете видалити запис цієї кімнати?</h3>
+<div>
+    <h4>DormRoom</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Number)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Number)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dorm)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dorm.Number)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Видалити" class="btn btn-danger" /> |
+        <a asp-action="Index">До списку</a>
+    </form>
+</div>

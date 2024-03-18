@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace E_StudentDomain.Model;
 
@@ -7,8 +8,12 @@ public partial class Dorm : Entity
 {
     public int Id { get; set; }
 
+    [Required(ErrorMessage="Поле повинно бути непустим")]
+    [Display(Name="Номер")]
     public int Number { get; set; }
 
+    [Required(ErrorMessage = "Поле повинно бути непустим")]
+    [Display(Name = "Адреса")]
     public string Address { get; set; } = null!;
 
     public virtual ICollection<DormInspection> DormInspections { get; set; } = new List<DormInspection>();

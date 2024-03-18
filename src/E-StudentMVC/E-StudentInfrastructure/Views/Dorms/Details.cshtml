@@ -1,0 +1,44 @@
+﻿@model E_StudentDomain.Model.Dorm
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Гуртожиток номер @Html.DisplayFor(model => model.Number)</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Number)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Number)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dd class="col-sm-12">
+            <a asp-action="OpenPasses" asp-route-id="@Model.Id">Переглянути перепустки мешканців гуртожитку</a>
+        </dd>
+        <dd class="col-sm-12">
+            <a asp-action="OpenRooms" asp-route-id="@Model.Id">Переглянути кімнати гуртожитку</a>
+        </dd>
+        <dd class="col-sm-12">
+            <a asp-action="OpenInspections" asp-route-id="@Model.Id">Переглянути інспекції гуртожитку</a>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Редагувати</a> |
+    <a asp-action="Index">Переглянути список гуртожитків</a>
+</div>

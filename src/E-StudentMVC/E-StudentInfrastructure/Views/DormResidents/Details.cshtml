@@ -1,0 +1,164 @@
+﻿@model E_StudentDomain.Model.DormResident
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Мешканець гуртожитку Id @Html.DisplayFor(model => model.Id)</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">
+            Дані мешканця гуртожитку
+        </dt>
+        <dt class="col-sm-4">
+            Дані перепустки
+        </dt>
+        <dt class="col-sm-4">
+            Дані рахунку
+        </dt>
+
+        <dt class="col-sm-12">
+            &nbsp;
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pass.Id)
+        </dt>
+        <dd class="col-sm-2">
+            <a asp-action="OpenPass" asp-route-id="@Model?.Pass.Id">@Html.DisplayFor(model => model.Pass.Id)</a>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Account.Id)
+        </dt>
+        <dd class="col-sm-2">
+            <a asp-action="OpenAccount" asp-route-id="@Model?.Account.Id">@Html.DisplayFor(model => model.Account.Id)</a>
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pass.Name)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Pass.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Account.Number)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Account.Number)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Account)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Account.Number)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pass.Number)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Pass.Number)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Account.CurrentBalance)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Account.CurrentBalance)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pass)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Pass.Number)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pass.Dorm) №
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Pass.Dorm.Number)
+        </dd>
+        <dd class="col-sm-4">
+            <a asp-action="OpenTransactions" asp-route-id="@Model?.PassId">Переглянути історію транзакцій</a>
+        </dd>
+
+        <dt class="col-sm-2">
+            
+        </dt>
+        <dd class="col-sm-2">
+            
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pass.Room)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Pass.Room.Number)
+        </dd>
+        <dt class="col-sm-2">
+
+        </dt>
+        <dd class="col-sm-2">
+
+        </dd>
+
+
+        <dt class="col-sm-2">
+
+        </dt>
+        <dd class="col-sm-2">
+
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pass.Issued)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Pass.Issued)
+        </dd>
+        <dt class="col-sm-2">
+
+        </dt>
+        <dd class="col-sm-2">
+
+        </dd>
+
+        <dt class="col-sm-2">
+
+        </dt>
+        <dd class="col-sm-2">
+
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pass.Expires)
+        </dt>
+        <dd class="col-sm-2">
+            @Html.DisplayFor(model => model.Pass.Expires)
+        </dd>
+        <dt class="col-sm-2">
+
+        </dt>
+        <dd class="col-sm-2">
+
+        </dd>
+
+        <dd class="col-sm-12">
+            <a asp-action="OpenUser" asp-route-id="@Model?.Id">Переглянути відповідного користувача</a>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Редагувати</a> |
+    <a asp-action="Index">До списку мешканців</a>
+</div>

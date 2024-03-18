@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = E_StudentInfrastructure
 build_property.RootNamespace = E_StudentInfrastructure
@@ -18,6 +26,186 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Projects\E-Student\src\E-StudentMVC\E-StudentInfrastructure
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormAccounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUFjY291bnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormAccounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUFjY291bnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormAccounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUFjY291bnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormAccounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUFjY291bnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormAccounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUFjY291bnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormAccountTransactions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUFjY291bnRUcmFuc2FjdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormAccountTransactions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUFjY291bnRUcmFuc2FjdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormAccountTransactions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUFjY291bnRUcmFuc2FjdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormAccountTransactions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUFjY291bnRUcmFuc2FjdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormAccountTransactions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUFjY291bnRUcmFuc2FjdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormInspections/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUluc3BlY3Rpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormInspections/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUluc3BlY3Rpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormInspections/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUluc3BlY3Rpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormInspections/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUluc3BlY3Rpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormInspections/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybUluc3BlY3Rpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormPasses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVBhc3Nlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormPasses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVBhc3Nlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormPasses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVBhc3Nlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormPasses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVBhc3Nlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormPasses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVBhc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormResidents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVJlc2lkZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormResidents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVJlc2lkZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormResidents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVJlc2lkZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormResidents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVJlc2lkZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormResidents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVJlc2lkZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormRooms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVJvb21zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormRooms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVJvb21zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormRooms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVJvb21zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormRooms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVJvb21zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/DormRooms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybVJvb21zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Dorms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Dorms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Dorms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Dorms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Dorms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9ybXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/ExamSchedules/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVNjaGVkdWxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/ExamSchedules/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVNjaGVkdWxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/ExamSchedules/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVNjaGVkdWxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/ExamSchedules/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVNjaGVkdWxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/ExamSchedules/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVNjaGVkdWxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Groups/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Groups/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Groups/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Groups/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Groups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,12 +214,72 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/LessonSchedules/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uU2NoZWR1bGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/LessonSchedules/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uU2NoZWR1bGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/LessonSchedules/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uU2NoZWR1bGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/LessonSchedules/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uU2NoZWR1bGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/LessonSchedules/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uU2NoZWR1bGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/E-Student/src/E-StudentMVC/E-StudentInfrastructure/Views/_ViewImports.cshtml]
