@@ -149,6 +149,14 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+      "Id": "D:\\Projects\\E-Student\\src\\E-StudentMVC\\E-StudentInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_darkly.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap_darkly.css"
+    },
+    {
+      "Id": "D:\\Projects\\E-Student\\src\\E-StudentMVC\\E-StudentInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_darkly.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap_darkly.min.css"
+    },
+    {
       "Id": "D:\\Projects\\E-Student\\src\\E-StudentMVC\\E-StudentInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },

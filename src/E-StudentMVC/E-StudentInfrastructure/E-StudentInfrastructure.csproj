@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap_darkly.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap_darkly.min.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />

@@ -2,7 +2,52 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>This is the Home page.</p>
+<div class="text-left">
+    <h1 class="display-6">
+        Оберіть табличку, яку ви хочете переглянути
+    </h1>
+    <h4>
+        <span><a asp-area="" asp-controller="Users" asp-action="Index">Користувачі</a></span>
+    </h4>
+    <h4>
+        <a asp-area="" asp-controller="Students" asp-action="Index">Студенти</a>
+    </h4>
+    <ul style="font-size:calc(1.2rem)">
+        <li>
+            <a asp-area="" asp-controller="Groups" asp-action="Index">Групи</a>
+        </li>
+        <li>
+            <a asp-area="" asp-controller="LessonSchedules" asp-action="Index">Розклади занять</a>
+        </li>
+        <li>
+            <a asp-area="" asp-controller="ExamSchedules" asp-action="Index">Розклади екзаменів</a>
+        </li>
+    </ul>
+    <h4>
+        <a asp-area="" asp-controller="DormResidents" asp-action="Index">Мешканці гуртожитків</a>
+    </h4>
+    <ul style="font-size:calc(1.2rem)">
+        <li>
+            <a asp-area="" asp-controller="DormPasses" asp-action="Index">Перепустки</a>
+            <ul>
+                <li>
+                    <a asp-area="" asp-controller="Dorms" asp-action="Index">Гуртожитки</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="DormRooms" asp-action="Index">КімнатиГуртожитків</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="DormInspections" asp-action="Index">Інспекції гуртожитків</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a asp-area="" asp-controller="DormAccounts" asp-action="Index">Рахунки мешканців</a>
+            <ul>
+                <li>
+                    <a asp-area="" asp-controller="DormAccountTransactions" asp-action="Index">Транзакції рахунків</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
 </div>
